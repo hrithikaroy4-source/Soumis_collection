@@ -1,2 +1,3 @@
-# Soumis_collection devoloped by <br>SOURAV SANYAL (COMPUTER APPLICATION)
+# Soumis_collection devoloped by
+<br>SOURAV SANYAL (COMPUTER APPLICATION)
 <br>HRITHIKA ROY (COMPUTER APPLICATION)
