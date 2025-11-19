@@ -121,13 +121,13 @@ body {
 }
 
 .hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 4.25rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4.5rem;
   color: #ffffff;
-  letter-spacing: 1.5px;
+  letter-spacing: 2.5px;
   margin-bottom: 2rem;
   text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.06);
-  font-weight: 400; /* thinner */
+  font-weight: 300; /* elegant, thin weight */
   text-transform: uppercase;
   animation: fadeInDown 0.8s ease-out;
 }
