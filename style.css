@@ -91,10 +91,10 @@ body {
 .hero {
   height: 600px;
   /* Background image goes here - create an images/hero.jpg file or change the path to your image */
-    /* uses a stylized oxidised-silver pendant SVG in images/hero.svg */
-    background-image: url('images/hero.svg'), linear-gradient(135deg, #f9f6f1 0%, #ede6dd 50%, #e0d4c3 100%);
+  /* jewelry portrait photo */
+  background-image: url('images/hero.jpg'), linear-gradient(135deg, #f9f6f1 0%, #ede6dd 50%, #e0d4c3 100%);
   background-size: cover, cover;
-  background-position: center center, center center;
+  background-position: center 20%, center center;
   background-repeat: no-repeat, no-repeat;
   display: flex;
   align-items: center;
@@ -105,14 +105,14 @@ body {
 }
 
 .hero::before {
-  /* soft dark overlay for better text contrast */
+  /* soft overlay for text contrast on portrait */
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.25);
+  background: rgba(0, 0, 0, 0.15);
   mix-blend-mode: multiply;
 }
 
