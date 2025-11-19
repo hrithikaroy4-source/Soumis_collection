@@ -90,7 +90,7 @@ body {
 /* Hero Section */
 .hero {
   height: 600px;
-  /* Jewelry portrait with subtle gradient fallback */
+  /* Jewelry portrait background */
   background-image: url('images/hero.jpg'), linear-gradient(135deg, #f9f6f1 0%, #ede6dd 50%, #e0d4c3 100%);
   background-size: cover, cover;
   background-position: center 15%, center center;
@@ -104,14 +104,14 @@ body {
 }
 
 .hero::before {
-  /* soft overlay for elegant text contrast over portrait */
+  /* soft overlay for text contrast on portrait */
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.18);
   mix-blend-mode: multiply;
 }
 
